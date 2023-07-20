@@ -131,19 +131,19 @@ function App() {
   ];
 
   const actionButtons = [
-    { key: 'filterStatus', url: 'http://172.20.10.2/api/filter', labelOn: '✔   Włącz filtr', labelOff: '✘   Wyłącz filtr' },
+    { key: 'filterStatus', url: 'Server url', labelOn: '✔   Włącz filtr', labelOff: '✘   Wyłącz filtr' },
 
-    { key: 'pump1status', url: 'http://172.20.10.2/api/', labelOn: '✔   Włącz pompę 1', labelOff: '✘   Wyłącz pompę 1' },
+    { key: 'pump1status', url: 'Server url', labelOn: '✔   Włącz pompę 1', labelOff: '✘   Wyłącz pompę 1' },
 
-    { key: 'light1status', url: 'http://172.20.10.2/api/pump1', labelOn: '✔   Włącz lampę 1', labelOff: '✘   Wyłącz lampę 1' },
+    { key: 'light1status', url: 'Server url', labelOn: '✔   Włącz lampę 1', labelOff: '✘   Wyłącz lampę 1' },
 
-    { key: 'pump2status', url: 'http://172.20.10.2/api/lamp1', labelOn: '✔   Włącz pompę 2', labelOff: '✘   Wyłącz pompę 2' },
+    { key: 'pump2status', url: 'Server url', labelOn: '✔   Włącz pompę 2', labelOff: '✘   Wyłącz pompę 2' },
 
-    { key: 'light2status', url: 'http://172.20.10.2/api/lamp2', labelOn: '✔   Włącz lampę 2', labelOff: '✘   Wyłącz lampę 2' },
+    { key: 'light2status', url: 'Server url', labelOn: '✔   Włącz lampę 2', labelOff: '✘   Wyłącz lampę 2' },
 
-    { key: 'pump3status', url: 'http://172.20.10.2/api/pump3', labelOn: '✔   Włącz pompę 3', labelOff: '✘   Wyłącz pompę 3' },
+    { key: 'pump3status', url: 'Server url', labelOn: '✔   Włącz pompę 3', labelOff: '✘   Wyłącz pompę 3' },
 
-    { key: 'waterRelease', url: 'http://172.20.10.2/api/release', labelOn: '✔   Wypuść wodę', labelOff: '✘   Zatrzymaj wodę' },
+    { key: 'waterRelease', url: 'Server url', labelOn: '✔   Wypuść wodę', labelOff: '✘   Zatrzymaj wodę' },
   ];
 
 
